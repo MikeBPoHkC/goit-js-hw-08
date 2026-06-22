@@ -79,7 +79,7 @@ const galleryMarkup = images
 
 gallery.insertAdjacentHTML("beforeend", galleryMarkup);
 
-gallerry.addEventListener("click", (event) => {
+gallery.addEventListener("click", (event) => {
   event.preventDefault();
   const clickedImage = event.target;
   if (!clickedImage.classList.contains("gallery__image")) {
